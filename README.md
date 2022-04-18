@@ -15,5 +15,5 @@ The LFCC features used in this implementation are either extracted by the Matlab
 3. To do inference with our/your checkpoint, see the notebook named inference. After finishing inference and getting the score file, you can use tDCF_python_v2 directory which is provided by ASVspoof organizers to get EER and t-DCF.
 
 # Citation
-This part will be updated after online-pub.
+This part will be updated after uploading final files.
 
