@@ -5,7 +5,7 @@ This is the offical implementation of our SPL paper "The Role of Long-term Depen
 Python, Spafe, Librosa, Numpy, Pytorch and Tensorflow (only used for calculating supervised contrastive loss)
 
 # Data Preparation
-The LFCC features used in this implementation are either extracted by the Matlab code provided by ASVspoof organizers in the competition baseline, or extracted by the Spafe library. Our experiments are based on the **Matlab** code. However, feature extraction based on Spafe library is easier to use in practice.
+The LFCC features used in this implementation are either extracted by the Matlab code provided by ASVspoof organizers in the competition baseline, or extracted with the Spafe library. Our experiments are based on the **Matlab** code. However, feature extraction based on Spafe library is easier to use in practice.
 
 # How to use
 
