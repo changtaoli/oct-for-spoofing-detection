@@ -1,4 +1,4 @@
-# oct-for-spoofing-detection
+# OCT-for-spoofing-detection
 This is the offical implementation of our SPL paper "The Role of Long-term Dependency in Synthetic Speech Detection".
 
 # Requirements
@@ -7,5 +7,10 @@ Python, Spafe, Librosa, Numpy, Pytorch and Tensorflow (only used for calculating
 # Data Preparation
 The LFCC features used in this implementation is either extracted by the Matlab code provided by ASVspoof organizer in the competition baseline, or extracted based on the Spafe library. Our experiments are based on the **Matlab** code. However, the method based on Spafe library is easier to use in practice.
 
-# Run the training code
+# How to use
+
+1. To get Fig.1 in our paper, go to the notebook named SCL. There are detailed instruction on how to produce this figure. The raw data used to generate Fig.1 is also included in this notebook.
+2. To train you own model, run
+   ```python train.py --finetune --epochs 300```
+3. To do inference with our/your checkpoint, see the notebook named 
 
