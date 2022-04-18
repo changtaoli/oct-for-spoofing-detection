@@ -9,7 +9,7 @@ The LFCC features used in this implementation is either extracted by the Matlab 
 
 # How to use
 
-1. To get Fig.1 in our paper, go to the notebook named SCL. There are detailed instruction on how to produce this figure. The raw data used to generate Fig.1 is also included in this notebook.
+1. To get Fig.1 in our paper, go to the notebook named SCL_analysis. There are detailed instruction on how to produce this figure. The raw data used to generate Fig.1 is also included in this notebook.
 2. To train you own model, run
    ```python train.py --finetune --epochs 300```
 3. To do inference with our/your checkpoint, see the notebook named inference. Once after finishing inference and get the score file, you can use tDCF_python_v2 directory which is provided by ASVspoof organizers to get EER and t-DCF.
