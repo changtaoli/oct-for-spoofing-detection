@@ -15,5 +15,15 @@ The LFCC features used in this implementation are either extracted by the Matlab
 3. To do inference with our/your checkpoint, see the notebook named inference. After finishing inference and getting the score file, you can use tDCF_python_v2 directory which is provided by ASVspoof organizers to get EER and t-DCF.
 
 # Citation
-This part will be updated after uploading final files.
-
+If you find this repository helpful, please cite our work
+```
+@ARTICLE{9762538,  
+author={Li, Changtao and Yang, Feiran and Yang, Jun},  
+journal={IEEE Signal Processing Letters},   
+title={The Role of Long-term Dependency in Synthetic Speech Detection},   
+year={2022},  
+volume={},  
+number={},  
+pages={1-1},  
+doi={10.1109/LSP.2022.3169954}}
+```
